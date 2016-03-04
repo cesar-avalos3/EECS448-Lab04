@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Ugly as sin store</title>
+</head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>	<link rel="stylesheet" type="text/css" href="customerFrontend.css">
+	<script type="text/javascript" src="formchecker.js"></script>
+<body>
+	<h1> UGLY as SIN store </h1>
+	<h2> OH GOD MY EYES!</h2>
+	<div id="content-main">
+	<form action="customerBackend.php" method="post" onsubmit="return checkInput()">
+
+		<table>
+		<tr>
+			<td>
+				<div id="item">
+					<img src="1.png" width="130" height="200"> NUMBER ONE
+					<input type="radio" name="product" id="product1" value="product1"> Order this one</br>
+				</div>
+			</td>
+			<td>
+				<div id="item">
+					<img src="2.png" width="130" height="200">	NUMBER TWO
+					<input type="radio" name="product" id="product2" value="product2"> Order this one</br>
+				</div>
+			</td>
+			<td>
+				<div id="item">
+					<img src="3.png" width="130" height="200">	NUMBER THREE
+					<input type="radio" name="product" id="product3" value="product3"> Order this one</br>
+				</div>
+			</td>
+		</tr>
+		<div class="content-authentication">
+			E-mail: <input type="text" 	name="email" id="userEmail"></br></br>
+			Password  : <input type="text" name="password" id="userPassword" ></br></br>
+			Quantity  : <input type="number" name="quantity" id="userQuantity" ></br></br>
+			Shipping Choices <div name="question1"></div></br></br>
+			<input type="radio" name="shipping" id="radio1" value="Free">Free 7 days</br>
+			<input type="radio" name="shipping" id="radio2" value="Overnight">Overnight - 50.0$</br>
+			<input type="radio" name="shipping" id="radio3" value="Three">Three Days - 5.0$</br>
+			</br>
+			</br>
+			<input type="submit">
+		</div>
+	</table>
+
+
+
+	</form>
+	</div>
+</body>
+</html>
